@@ -1,0 +1,39 @@
+  body{
+   background:#000000;
+   font-family: 'Orbitron', sans-serif;
+ }
+
+ .conteiner{
+  background: #DCD4D3;
+  width: 500px;
+  height: auto;
+  margin: auto;
+  margin-top:35px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.autor{
+  float: left;
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.boton{
+  border: solid 1px #000000;
+  border-radius: 5px;
+}
+
+.boton:hover{
+  background: #000000;
+  color: bisque;
+  cursor: pointer;
+}
+
+.imagen{
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+
