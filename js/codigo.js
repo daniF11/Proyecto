@@ -18,6 +18,9 @@ let dias = [
 "Sábado"
 ];
 
+let mision = document.getElementById("mision");
+console.log(mision);
+
 function fLunes(){
     let elemento = document.getElementById("logo");
     elemento.src = "img/camisagris.jpg";
