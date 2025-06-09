@@ -1,2 +1,2 @@
-#Primer Sistema
+#Primer Repositorio en Github
 Labores Semanales
