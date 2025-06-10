@@ -1,55 +1,53 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Document</title>
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <title>iD-Force</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="icon" href="img/icono.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet" />
 </head>
 <body>
+    <main class="container">
+        <header>
+            <label class="autor">By Daniel F. Rincón</label>
+            <img src="img/logoidforce.png" class="logo" alt="Logo iD-Force" />
+            <p id="frase">
+                En iD-Force, no solo creamos sistemas, sino experiencias que desafían la monotonía.
+                ¿Aburrido de lo convencional? Prepárate para la innovación con un toque divertido.
+                ¡Descubre el lado emocionante de la tecnología con nosotros! 🚀✨
+            </p>
+        </header>
 
+        <section class="contenido">
+            <h1>Actividad Semanal</h1>
+            <h3>Selecciona el Día:</h3>
+            <div class="botonera">
+                <button class="boton" onclick="fLunes()">Lunes</button>
+                <button class="boton" onclick="fMartes()">Martes</button>
+                <button class="boton" onclick="fMiercoles()">Miércoles</button>
+                <button class="boton" onclick="fJueves()">Jueves</button>
+                <button class="boton" onclick="fViernes()">Viernes</button>
+                <button class="boton" onclick="fSabado()">Sábado</button>
+            </div>
+        </section>
 
-    <div class="conteiner">
-        <a class="autor">By Daniel</a><br>
-
-
-        <div class="logo">
-            <img src="img/antena.png" width="120" height="120">
-        </div>
-
-        <p id="mision">LOGISTICA DIGITAL brinda a sus clientes un servicio de Internet
-             de alta calidad y confiabilidad soportado con el respaldo de 
-             operadores que proporcionen seguridad y agilidad en manejo de 
-             información.</p><br>
-
-        <h1>Indumentaria Laboral</h1>
-        <img src="img/logold.png" class="imagen">
-        <h3>Selecciona el Día: </h3>
-
-        <button class= "boton" onclick="fLunes()">Lunes</button>
-        <button class= "boton" onclick="fMartes()">Martes</button>
-        <button class= "boton" onclick="fMiercoles()">Miércoles</button>
-        <button class= "boton" onclick="fJueves()">Jueves</button>
-        <button class= "boton" onclick="fViernes()">Viernes</button>
-        <button class= "boton" onclick="fSabado()">Sábado</button>
-
-        <br><br><br>
-
-        <div class="resultados">
-            <img class="imagen"src="img/tecnicon.png" width="150" height="150" id="logo">
+        <section class="resultados">
+            <img src="img/persona.png" class="resultado-img" id="logo" alt="Imagen del día" />
             <p id="descripcion"></p>
-        </div>
+        </section>
 
-        <p class="footer">&copy; 2022 DanyForce11.com</p>
+        <footer class="footer">
+            <p>iD-Force &copy; 2022 - <a href="https://idforce.com">idforce.com</a></p>
+        </footer>
+    </main>
 
-
-    </div>
-
-    <script src = "js/codigo.js"></script>
+    <script src="js/codigo.js"></script>
 </body>
 </html>

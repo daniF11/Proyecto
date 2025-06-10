@@ -1,10 +1,10 @@
   
-let percha = [
-"Polo Gris",
-"Ceda Gris",
-"Camisa F",
-"Ceda Negra",
-"Polo Negra",
+let actividad = [
+"CCTV",
+"Alarmas",
+"Redes de Datos",
+"Redes Eléctricas",
+"Desarrollo de Sofware",
 "En éste día no se debería trabajar!"
 ];
 
@@ -18,53 +18,51 @@ let dias = [
 "Sábado"
 ];
 
-let mision = document.getElementById("mision");
-console.log(mision);
 
 function fLunes(){
     let elemento = document.getElementById("logo");
-    elemento.src = "img/camisagris.jpg";
-    let mensaje = `El día <b>${dias[0]}</b>, corresponde <b>${percha[0]}</b>.`;
+    elemento.src = "img/cctv.png";
+    let mensaje = `El día <b>${dias[0]}</b>, corresponde <b>${actividad[0]}</b>.`;
     let descripcion= document.getElementById("descripcion");
     descripcion.innerHTML= mensaje;
     
 }
 function fMartes(){
     let elemento = document.getElementById("logo");
-    elemento.src = "img/buzogris.jpg";
-    let mensaje = `El día <b>${dias[1]}</b>, corresponde <b>${percha[1]}</b>.`;
+    elemento.src = "img/alarmas.png";
+    let mensaje = `El día <b>${dias[1]}</b>, corresponde <b>${actividad[1]}</b>.`;
     let descripcion= document.getElementById("descripcion");
     descripcion.innerHTML= mensaje;
 
 }
 function fMiercoles(){
     let elemento = document.getElementById("logo");
-    elemento.src = "img/formal.jpg";
-    let mensaje = `El día <b>${dias[2]}</b>, corresponde <b>${percha[2]}</b>.`;
+    elemento.src = "img/reddatos.png";
+    let mensaje = `El día <b>${dias[2]}</b>, corresponde <b>${actividad[2]}</b>.`;
     let descripcion= document.getElementById("descripcion");
     descripcion.innerHTML= mensaje;
 
 }
 function fJueves(){
     let elemento = document.getElementById("logo");
-    elemento.src = "img/buzonegro.jpg";
-    let mensaje = `El día <b>${dias[3]}</b>, corresponde <b>${percha[3]}</b>.`;
+    elemento.src = "img/redelectrica.png";
+    let mensaje = `El día <b>${dias[3]}</b>, corresponde <b>${actividad[3]}</b>.`;
     let descripcion= document.getElementById("descripcion");
     descripcion.innerHTML= mensaje;
 
 }
 function fViernes(){
     let elemento = document.getElementById("logo");
-    elemento.src = "img/camisanegra.jpg";
-    let mensaje = `El día <b>${dias[4]}</b>, corresponde <b>${percha[4]}</b>.`;
+    elemento.src = "img/desarrollosoftware.png";
+    let mensaje = `El día <b>${dias[4]}</b>, corresponde <b>${actividad[4]}</b>.`;
     let descripcion= document.getElementById("descripcion");
     descripcion.innerHTML= mensaje;
 
 }
 function fSabado(){
     let elemento = document.getElementById("logo");
-    elemento.src = "img/dormir.png";
-    let mensaje = `El día <b>${dias[5]}</b>, <b style='color:red'>NO</b> se debería trabajar <b>V:</b> .`;
+    elemento.src = "img/descanso.png";
+    let mensaje = `El día <b>${dias[5]}</b>, <b style='color:red'>NO</b> se trabaja, día libre! ​🎉​😎​ .`;
     let descripcion= document.getElementById("descripcion");
     descripcion.innerHTML= mensaje;
 

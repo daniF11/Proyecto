@@ -1,47 +1,101 @@
-  body{
-   background:#000000;
-   font-family: 'Orbitron', sans-serif;
- }
 
- .conteiner{
-  background: #DCD4D3;
-  width: 500px;
-  height: auto;
-  margin: auto;
-  margin-top:35px;
-  border-radius: 5px;
-  text-align: center;
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background: #000;
+    color: #222;
 }
 
-.autor{
-  float: left;
-  font-size: 15px;
-  font-family: 'Courier New', Courier, monospace;
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #DCD4D3;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
-
-.boton{
-  border: solid 1px #000000;
-  border-radius: 5px;
+.logo {
+    display: block;
+    margin: 0 auto 10px;
+    max-width: 100%;
+    height: auto;
 }
 
-.boton:hover{
-  background: #000000;
-  color: bisque;
-  cursor: pointer;
+.autor {
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    margin-bottom: 5px;
 }
 
-.imagen{
-  border: 1px solid #000;
-  border-radius: 5px;
+#frase {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 20px;
 }
 
-.footer{
-  width: 400px;
-  border-radius: 10px;
-  background-color: #A41E1E;
-  color: #fff;
-  margin: auto;
+.contenido h1 {
+    text-align: center;
+    margin-bottom: 10px;
 }
 
+.botonera {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0;
+}
 
+.boton {
+    padding: 10px 20px;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.boton:hover {
+    background: #000;
+    color: rgb(2, 238, 255);
+    cursor: pointer;
+}
+
+.resultados {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.resultado-img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.footer {
+    margin-top: 40px;
+    text-align: center;
+    background-color: #0b3197;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .botonera {
+        flex-direction: column;
+    }
+}
